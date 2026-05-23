@@ -13,6 +13,17 @@ Port of the TradingView indicator **"Cumulative Volume Delta Divergence [Trading
 | `CVD_Divergence_Oscillator.mq5` | MQL5 oscillator variant (2-plot histogram) |
 | `ZigZag_Fib_Golden_Zone.mq4` | MQL4 ZigZag with Fibonacci retracements + Golden Zone label |
 | `ZigZag_Fib_Golden_Zone.mq5` | MQL5 ZigZag with Fibonacci retracements + Golden Zone label |
+| `default.tpl` | Chart template — place in your template folder to load a preconfigured chart layout |
+
+## Chart Template
+
+`default.tpl` provides a preconfigured chart layout (timeframe, indicators, settings). Copy it to:
+
+- **MT4**: `%AppData%\MetaQuotes\Terminal\<instance>\Profiles\Templates\`
+- **MT5**: `%AppData%\MetaQuotes\Terminal\<instance>\Profiles\Templates\`
+- **Manual install**: from MetaTrader, drag the `.tpl` file into the chart window
+
+Apply via: right‑click chart → Template → Load Template → `default.tpl`
 
 ## CVD Divergence Indicator Features
 
